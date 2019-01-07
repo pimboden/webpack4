@@ -1,0 +1,16 @@
+{
+	"name": "dev-webpack-course",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"dev": "webpack-dev-server --config=config/webpack.config.js",
+		"prod": "webpack --mode=production"
+	},
+	"author": "Patrick Imboden <pimboden@msn.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"webpack": "^4.28.3",
+		"webpack-cli": "^3.2.1",
+		"webpack-dev-server": "^3.1.14"
+	}
+}
