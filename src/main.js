@@ -1,2 +1,7 @@
-require("./main.css");
-require("./index.html");
+import "./main.css";
+import "./index.html";
+
+var a=()=>{
+    console.log("Hello from the future")
+}
+a()

@@ -1,20 +1,23 @@
-body{
+body {
     margin: 0;
     background-color: #444;
 }
-.profile{
+
+.profile {
     display: flex;
     height: 100vh;
     align-items: center;
     justify-content: center;
     flex-flow: column;
 }
-img{
-    border-radius:  100%;
-width: 300px;
-box-shadow: 0 0 20px black;
+
+img {
+    border-radius: 100%;
+    width: 300px;
+    box-shadow: 0 0 20px black;
 }
-h1{
+
+h1 {
     color: #fff;
     font-size: 5em;
     font-family: sans-serif;
