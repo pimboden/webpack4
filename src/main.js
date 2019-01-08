@@ -1,2 +1,2 @@
 require("./main.css");
-alert("hello")
+require("./index.html");

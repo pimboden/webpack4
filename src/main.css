@@ -2,12 +2,20 @@ body{
     margin: 0;
     background-color: #444;
 }
-h1{
-    height: 100vh;
+.profile{
     display: flex;
-    color: #fff;
+    height: 100vh;
     align-items: center;
     justify-content: center;
+    flex-flow: column;
+}
+img{
+    border-radius:  100%;
+width: 300px;
+box-shadow: 0 0 20px black;
+}
+h1{
+    color: #fff;
     font-size: 5em;
     font-family: sans-serif;
     text-shadow: 0 0 200px #000;
